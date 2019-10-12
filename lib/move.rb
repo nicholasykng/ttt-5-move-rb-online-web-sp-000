@@ -9,7 +9,7 @@ end
 def input_to_index(user_input)
   user_input.to_i - 1
 end
-board = [" ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def move(array, index, value = "X")
   array[index] = "X"
 
